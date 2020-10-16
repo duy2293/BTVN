@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        #divA{
+            background-color: green;
+            border: 2px solid red;
+            
+            width: 200px;
+            height: 200px;
+
+            overflow: visible;
+        }
+    </style>
+    
+    <pre>
+        css overflow 
+        The CSS overflow property controls what happens to content that is too big to fit into an area.
+        Thuộc tính overflow kiểm soát điều gì xảy ra khi nội dung bên trong thẻ html mà quá lớn 
+        không vừa thẻ html chứa nội dung đó 
+
+        overflow: visible; ( luôn hiển thị ) là giá trị mặc định 
+        overflow: hidden; ( ẩn nội dung vượt quá kích cỡ của thẻ html )
+        overflow: auto; ( hiển thị thanh scrollbar khi nội dung tràn ra bên ngoài và
+        không hiển thị thanh scrollbar khi nội dung không tràn ra bên ngoài )
+        overflow: scroll; ( luôn hiển thị scrollbar bất kể nội dung có tràn ra bên ngoài hay không)
+    </pre>
+
+    <h1>overflow: visible;</h1>
+
+    <div id="divA">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam qui nulla accusantium alias harum voluptate autem fuga odit neque ipsam ea, distinctio molestiae molestias velit cum sapiente vero impedit perspiciatis.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas sint omnis iste assumenda labore eius ut, repellat non. Fugit deleniti tenetur assumenda est cupiditate voluptatem mollitia nostrum blanditiis itaque aliquam.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora quos placeat nisi illo nesciunt totam exercitationem fugiat ex temporibus quae ipsa veritatis nam, voluptatum blanditiis consequatur reprehenderit ducimus, optio ut.
+    </div>
+    
+</body>
+</html>
