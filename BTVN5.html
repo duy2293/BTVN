@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        #Left-Panel{
+            width: 30%;
+        }
+
+        #Right-Panel{
+           width: 70%;
+        }
+
+        .maxacthuc {
+            background-color: yellow;
+        }
+
+        .taotaikhoan{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-signup">
+        <div id="Left-Panel"> Tạo tài khoản
+            Tạo tài khoản để theo dõi đơn hàng, lưu
+            danh sách sản phẩm yêu thích, nhận
+            nhiều ưu đãi hấp dẫn.
+                        
+            <img src="https://frontend.tikicdn.com/_desktop-next/static/img/graphic-map.png">
+        </div>
+        <div id="Right-Panel">
+         <form name="Tiki" method="POST" action="">
+
+             <div>
+                 <label>Họ tên</label>
+                 <input type="text" name="hoten" value="" placeholder="Nhập họ tên">
+             </div>
+
+             <div>
+                <label>Điện thoại</label>
+                <input type="text" name="sodienthoai" value="" placeholder="Nhập số điện thoại">
+                <button class="maxacthuc">Gửi mã xác thực</button>
+            </div>
+
+            <div>
+                <label>Mã xác thực</label>
+                <input type="text" name="maxacthuc" value="" placeholder="Nhập mã xác thực gửi tới số điện thoại trên">
+            </div>
+
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" value="" placeholder="Nhập email">
+            </div>
+
+            <div>
+                <label>Mật khẩu</label>
+                <input type="password" name="email" value="" placeholder="Mật khẩu từ 6 đến 32 ký tự">
+            </div>
+
+            <div>
+                <label>Giới tính</label>
+                <input type="radio" name="gioitinh" value="1">Nam
+                <input type="radio" name="gioitinh" value="0">Nữ
+            </div>
+
+            <div>
+                <label>Ngày sinh</label>
+                <select name="ngaysinh">
+                    <option value="1">Ngày 1</option>
+                </select>
+            </div> 
+
+            <div>
+                <label>Tháng sinh</label>
+                <select name="thangsinh">
+                    <option value="1">Tháng 1</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Năm sinh</label>
+                <select name="namsinh">
+                    <option value="1">Năm 1930</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="checkbox" name="nhanbantin" value="1">
+                Nhận các thông tin và chương trình khuyến mãi của Tiki qua email.
+            </div>
+
+            <div class="taotaikhoan">
+                <input type="submit" name="taotaikhoan" value="Tạo tài khoản">
+            </div>
+
+            <div>
+                Khi bạn nhấn Đăng ký, bạn đã đồng ý thực hiện mọi giao dịch mua bán theo <a href="https://hotro.tiki.vn/hc/vi/articles/201971214"">điều kiện sử dụng và chính sách của Tiki.</a> 
+            </div>
+
+
+         </form>
+        </div>
+    </div>
+    
+</body>
+</html>
